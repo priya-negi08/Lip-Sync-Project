@@ -1,0 +1,11 @@
+# Main environment (Python 3.10 or 3.11). Install PyTorch with CUDA first from pytorch.org
+faster-whisper
+transformers
+sentencepiece
+sacremoses
+coqui-tts        # maintained fork that provides the "TTS" package (XTTS-v2)
+gTTS             # free fallback voice (no cloning)
+soundfile
+numpy
+gradio
+# optional: demucs   (separates voice from music)
